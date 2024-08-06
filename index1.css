@@ -1,0 +1,181 @@
+h1{         /*make some decoration in Title*/
+    display: flex;
+    justify-content: center;    /*it is use for align the text in center*/
+    text-align: center;
+   text-decoration:black underline solid ;  /*  make the underlined int the bottom of text*/
+    font-style: italic;         /*  make the test style in italic format*/
+    color: rgb(5, 139, 249) ;       /*the color of the text is select*/
+}
+.para1{         
+    text-align: center;         /*it is use for align the text in center*/
+    font-style: oblique;        /*  make the test style in oblique format*/
+    font-weight: bold;
+    color: rgb(245, 74, 6);
+}
+.head{
+    background-color: rgb(244, 236, 236);
+}
+nav{                    
+    padding: 10px;          /*make some distance between text and border*/
+   
+}
+.navbar .drop li a {
+    color: #5419e8;
+    font-weight: 600;
+    font-style: oblique;
+}
+nav:hover{              /*when the cursor is in the nav bar then the changed happened */
+     
+    color: rgb(248, 10, 161);
+    background-color: white;
+}
+.drop a{                /*here  i set some text-decoration property */
+    
+    color: black;
+    padding: 2px;
+    display: block;         /*here the element is block line element,it mean it aquire a row*/
+    text-decoration: none;
+    text-align: left;       /* the text is align on left side*/
+   
+}
+
+
+.blog1{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 25ps;
+}
+.blog2{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 25ps;
+}
+.blog3{
+    margin: 20px;       /*make some gap between different blog*/
+    border: 1px solid black;
+    padding: 25ps;
+}
+.title{
+    font-size: 20px;
+  font-style: oblique ;
+  color: #333;
+  margin: 10px; 
+  border-bottom: 2px solid #ccc;    /* make border int bottom*/
+  padding-bottom: 5px       /*make the gap between text and border in bottom of the title*/
+}
+.content{
+    font-size: 18px;        
+    color: #054bfd;     
+    margin-bottom: 10px;
+    font-style: calc();
+    line-height: 1.6;       /*make the distance between line is 1.5*/
+}
+.summary{
+   color: #9900cc;
+   margin-bottom: 10px;
+   font-style: italic;  /*the font style is italic*/
+   padding: 5px;
+}
+.img{
+    padding-left: 20px; 
+    display: flex;
+    height: 150px;  /*the height of the image is 200px*/
+    width: 200px;       /*the width of the img is 400px*/
+    transition: all 5s linear 2s;
+    text-align: center;
+    justify-content: center;
+}
+#Aboutme{
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: beige;
+    text-align: left;
+    line-height: 1.5;
+    padding: 5px;
+    font-size: medium;      /*here the font size is the medium*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+#Aboutme h4{
+    border-bottom: 2px solid #ccc; 
+    font-size: 19px;
+    color: red;
+    font-weight: bold;      /*the font of the text is bold*/
+    font-style: italic;
+   
+}
+#Contact{
+    background-color: rgb(213, 237, 247);   
+    border: 1px solid black;
+    padding: 10px;
+    line-height: 1.5;
+    margin: 10px;
+    border-radius: 15px;        /*making radius in the border section*/
+   
+}
+
+#Contact h4{
+text-decoration: red solid underline;
+color: rgb(7, 155, 155);
+font-size: 18px;
+}
+#Contact .social{
+
+color: rgb(108, 12, 243);
+text-decoration: rgba(42, 7, 219, 0.852) solid underline;
+font-weight: bold;
+}
+#Contact p a{
+    text-decoration: none;
+    color: rgb(238, 29, 10);
+    font-style: italic;
+    font-weight: bold;
+}
+#form{
+    font-family: Arial, Helvetica, sans-serif;      /*the font generic is the font-family*/
+    color: grey;
+}
+.submit{
+    color: rgb(17, 17, 244) ;
+    background-color: rgb(180, 239, 239);
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer{
+    background-color: rgb(120, 182, 253);
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: black;
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(10, 10, 9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 700px){  /* @media =  it is one kind of if (conition) if match the condition then execute
+    here if the container width is maximum 500 px then the container is flex mode */
+.container{
+display: flex;
+flex-direction: row;
+background-color: aliceblue;
+flex-grow: 1 ;
+flex-wrap: nowrap;
+
+}
+}
+.img{
+    padding-left: 20px; 
+    height: 150px;  /*the height of the image is 200px*/
+    width: 200px;       /*the width of the img is 400px*/
+    transition: all 3s linear 2s;
+}
+
+.img:hover{
+    transform: scale(1.2);
+}
+.video{
+    padding-left: 10px;
+}
